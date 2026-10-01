@@ -1,2 +1,2 @@
 #!/bin/bash
-grep -an '' "$@" | grep -aE '^[0-9]*[13579]:' | cut -d: -f2-
+grep -an '' | grep -aE '^[0-9]*[13579]:' | cut -d: -f2-
